@@ -73,8 +73,7 @@
 		// scuffed not-tgui flavor text stuff
 		var/mob/viewer = usr
 
-		if (HAS_TRAIT(src, TRAIT_UNKNOWN))
-			to_chat(viewer, span_notice("You can't discern a thing about them!"))
+		if(HAS_TRAIT(src, TRAIT_EXAMINE_SKIP))
 			return
 
 		var/short_desc = src.dna.features["flavor_short_desc"]
@@ -126,8 +125,7 @@
 	if (href_list["full_desc"])
 		var/mob/viewer = usr
 
-		if (HAS_TRAIT(src, TRAIT_UNKNOWN))
-			to_chat(viewer, span_notice("You can't discern a thing about them!"))
+		if(HAS_TRAIT(src, TRAIT_EXAMINE_SKIP))
 			return
 
 		var/short_desc = READ_PREFS(src, text/silicon_short_desc)
@@ -170,8 +168,7 @@
 	if (href_list["full_desc"])
 		var/mob/viewer = usr
 
-		if (HAS_TRAIT(src, TRAIT_UNKNOWN))
-			to_chat(viewer, span_notice("You can't discern a thing about them!"))
+		if(HAS_TRAIT(src, TRAIT_EXAMINE_SKIP))
 			return
 
 		var/short_desc = READ_PREFS(src, text/silicon_short_desc)
