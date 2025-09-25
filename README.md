@@ -6,11 +6,15 @@
 
 [![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-| Website                   | Link                                           |
-|---------------------------|------------------------------------------------|
-| Website                   | [https://dopplershift13.com](https://dopplershift13.com)          |
-| Forums										| [https://forum.dopplershift13.com](https://forum.dopplershift13.com)			|
-| Wiki                      | [https://wiki.dopplershift13.com/wiki/Main_Page](https://wiki.dopplershift13.com/wiki/Main_Page)   |
+| Website             | Link                                                                                                 |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| Website             | https://tgstation13.org                                                                              |
+| Code                | https://github.com/tgstation/tgstation                                                               |
+| Server Config       | https://github.com/tgstation-operations/server-config                                                |
+| Wiki                | https://tgstation13.org/wiki/Main_Page                                                               |
+| Codedocs            | https://codedocs.tgstation13.org/                                                                    |
+| /tg/station Discord | https://tgstation13.org/phpBB/viewforum.php?f=60                                                     |
+| Coderbus Discord    | https://discord.gg/Vh8TJp9                                                                           |
 
 
 This is the codebase forked from the /tg/station flavoured fork of SpaceStation 13.
