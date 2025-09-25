@@ -176,6 +176,7 @@ export const DmTarget = new Juke.Target({
     'icons/**',
     'interface/**',
     'modular_doppler/**', // DOPPLER EDIT ADDITION - Making the CBT work.
+    'modular_drive_2011/**', // corona edit - adds our modular to compile
     'sound/**',
     'tgui/public/tgui.html',
     `${DME_NAME}.dme`,
