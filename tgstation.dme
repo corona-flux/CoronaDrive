@@ -7262,7 +7262,6 @@
 #include "modular_doppler\modular_jobs\id_trim\access_additions.dm"
 #include "modular_doppler\modular_mapping\code\areas\mining.dm"
 #include "modular_doppler\modular_mapping\code\areas\station.dm"
-#include "modular_doppler\modular_mapping\code\ruins\icemoon.dm"
 #include "modular_doppler\modular_medical\code\carbon_update_icons.dm"
 #include "modular_doppler\modular_medical\code\medkit.dm"
 #include "modular_doppler\modular_medical\medical_designs\medical_designs.dm"
