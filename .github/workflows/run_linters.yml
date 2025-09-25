@@ -66,7 +66,7 @@ jobs:
         run: |
           bash tools/ci/check_grep.sh
           bash modular_doppler/tools/doppler_check_grep.sh # DOPPLER EDIT ADDITION - checking modular_doppler code
-          bash modular_drive_2011/github/corona_check_grep.sh # corona addition - check modular code
+          bash modular_drive_2011/tools_and_github/corona_check_grep.sh # corona addition - check modular code
       - name: Ticked File Enforcement
         if: steps.linter-setup.conclusion == 'success' && !cancelled()
         run: |
