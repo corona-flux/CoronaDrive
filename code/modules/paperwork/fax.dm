@@ -57,8 +57,7 @@ GLOBAL_VAR_INIT(fax_autoprinting, FALSE)
 	)
 	/// List with a fake-networks(not a fax actually), for request manager.
 	var/list/special_networks = list(
-		//nanotrasen = list(fax_name = "NT HR Department", fax_id = "central_command", color = "teal", emag_needed = FALSE), // ORIGINAL
-		nanotrasen = list(fax_name = "PA HR Department", fax_id = "central_command", color = "teal", emag_needed = FALSE), // DOPPLER EDIT - NT -> PA
+		nanotrasen = list(fax_name = "NT HR Department", fax_id = "central_command", color = "teal", emag_needed = FALSE),
 		syndicate = list(fax_name = "Sabotage Department", fax_id = "syndicate", color = "red", emag_needed = TRUE),
 	)
 

@@ -61,101 +61,12 @@
 			The most recent recording of this phenomena occurred on Mars, when an Akhter colonization project had unknowingly disturbed a colony of moonmen who had been living in the red planet's subterranean.",
 	)
 
-/datum/crafting_recipe/golem_stomach
-	name = "Silicate Grinder"
-	result = /obj/item/organ/stomach/golem
-	time = 120
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 10, /obj/item/stack/sheet/plasteel = 10)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_liver
-	name = "Porous Rock"
-	result = /obj/item/organ/liver/golem
-	time = 120
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 10)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_tongue
-	name = "Golem Tongue"
-	result = /obj/item/organ/tongue/golem
-	time = 120
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 10)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_eyes
-	name = "Resonating Crystal"
-	result = /obj/item/organ/eyes/golem
-	time = 120
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 10, /obj/item/stack/sheet/glass = 15)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_appendix
-	name = "Internal Forge"
-	result = /obj/item/organ/appendix/golem
-	time = 120
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 10, /obj/item/stack/sheet/mineral/plasma = 15)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_arm
-	name = "Right Golem Arm"
-	result = /obj/item/bodypart/arm/right/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 6)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_arm/left
-	name = "Left Golem Arm"
-	result = /obj/item/bodypart/arm/left/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 6)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_leg
-	name = "Right Golem Leg"
-	result = /obj/item/bodypart/leg/right/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 6)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_leg/left
-	name = "Left Golem Leg"
-	result = /obj/item/bodypart/leg/left/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 6)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_head
-	name = "Golem Head"
-	result = /obj/item/bodypart/head/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 12)
-	category = CAT_MISC
-
-/datum/crafting_recipe/golem_torso
-	name = "Golem Torso"
-	result = /obj/item/bodypart/chest/golem
-	time = 60
-	tool_behaviors = list(TOOL_MINING)
-	reqs = list(/obj/item/stack/stone = 12)
-	category = CAT_MISC
-
 /obj/item/bodypart/arm/left/golem/drop_limb(special, dismembered, move_to_floor = FALSE)
 	if(special)
 		return ..()
 
 	to_chat(owner, span_warning("Your [name] crumbles into loose stone!"))
 	playsound(owner, 'sound/effects/rock/rock_break.ogg', 60, TRUE)
-	new /obj/item/stack/stone(drop_location(), 4)
 	. = ..()
 	drop_organs(src, TRUE)
 	qdel(src)
@@ -167,7 +78,6 @@
 
 	to_chat(owner, span_warning("Your [name] crumbles into loose stone!"))
 	playsound(owner, 'sound/effects/rock/rock_break.ogg', 60, TRUE)
-	new /obj/item/stack/stone(drop_location(), 4)
 	. = ..()
 	drop_organs(src, TRUE)
 	qdel(src)
@@ -179,7 +89,6 @@
 
 	to_chat(owner, span_warning("Your [name] crumbles into loose stone!"))
 	playsound(owner, 'sound/effects/rock/rock_break.ogg', 60, TRUE)
-	new /obj/item/stack/stone(drop_location(), 4)
 	. = ..()
 	drop_organs(src, TRUE)
 	qdel(src)
@@ -191,7 +100,6 @@
 
 	to_chat(owner, span_warning("Your [name] crumbles into loose stone!"))
 	playsound(owner, 'sound/effects/rock/rock_break.ogg', 60, TRUE)
-	new /obj/item/stack/stone(drop_location(), 4)
 	. = ..()
 	drop_organs(src, TRUE)
 	qdel(src)

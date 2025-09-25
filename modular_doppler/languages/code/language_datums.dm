@@ -5,7 +5,6 @@
 	langs += /datum/language/movespeak
 	langs += /datum/language/carptongue
 	langs += /datum/language/slime
-	langs += /datum/language/primitive_genemod
 	langs += /datum/language/nambuni
 	return langs
 

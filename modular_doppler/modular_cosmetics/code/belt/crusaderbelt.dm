@@ -81,10 +81,6 @@
 	set_holdable(
 		can_hold_list = list(
 			/obj/item/storage/belt/storage_pouch,
-			/obj/item/forging/reagent_weapon/sword,
-			/obj/item/forging/reagent_weapon/katana,
-			/obj/item/forging/reagent_weapon/bokken,
-			/obj/item/forging/reagent_weapon/dagger,
 			/obj/item/melee/sabre,
 			/obj/item/melee/parsnip_sabre,
 			/obj/item/claymore,

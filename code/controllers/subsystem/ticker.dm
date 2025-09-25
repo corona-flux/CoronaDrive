@@ -696,8 +696,7 @@ SUBSYSTEM_DEF(ticker)
 
 /datum/controller/subsystem/ticker/proc/send_news_report()
 	var/news_message
-	//var/news_source = "Nanotrasen News Network" // ORIGINAL
-	var/news_source = "Port Authority News Network" // DOPPLER EDIT - NT -> PA
+	var/news_source = "Nanotrasen News Network"
 	var/decoded_station_name = html_decode(station_name()) //decode station_name to avoid minor_announce double encode
 	var/decoded_emergency_reason = html_decode(emergency_reason)
 

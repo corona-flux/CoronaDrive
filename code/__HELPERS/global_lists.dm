@@ -187,8 +187,6 @@ GLOBAL_LIST_INIT(WALLITEMS_INTERIOR, typecacheof(list(
 	/obj/machinery/status_display,
 	/obj/machinery/ticket_machine,
 	/obj/machinery/turretid,
-	/obj/machinery/time_clock, // DOPPLER EDIT ADDITION - Time-clock
-	/obj/structure/wall_torch, // DOPPLER EDIT ADDITION - Wall-mounted torches
 	/obj/machinery/barsign,
 	/obj/structure/extinguisher_cabinet,
 	/obj/structure/fish_mount,
@@ -202,6 +200,7 @@ GLOBAL_LIST_INIT(WALLITEMS_INTERIOR, typecacheof(list(
 	/obj/structure/sign/poster/official/random,
 	/obj/structure/sign/poster/random,
 	/obj/structure/urinal,
+	/obj/machinery/time_clock, // DOPPLER EDIT ADDITION - Time-clock
 )))
 
 // Wall mounted machinery which are visually coming out of the wall.
