@@ -7,8 +7,6 @@
 		/obj/item/stack/sheet/cloth = list(GLOB.doppler_cloth_recipes),
 		/obj/item/stack/ore/glass = list(GLOB.doppler_sand_recipes),
 		/obj/item/stack/rods = list(GLOB.doppler_rod_recipes),
-		/obj/item/stack/sheet/mineral/stone = list(GLOB.stone_recipes),
-		/obj/item/stack/sheet/mineral/clay = list(GLOB.clay_recipes),
 	)
 	for(var/stack in additional_stack_recipes)
 		for(var/material_list in additional_stack_recipes[stack])

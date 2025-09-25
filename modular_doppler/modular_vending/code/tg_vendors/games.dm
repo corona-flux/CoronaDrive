@@ -1,13 +1,6 @@
 /obj/machinery/vending/games
 	product_categories_doppler = list(
 		list(
-			"name" = "Toys",
-			"icon" = "hat-wizard",
-			"products" = list(
-				/obj/item/storage/briefcase/secure/wargame_kit = 3,
-			),
-		),
-		list(
 			"name" = "Hair",
 			"icon" = "scissors",
 			"products" = list(

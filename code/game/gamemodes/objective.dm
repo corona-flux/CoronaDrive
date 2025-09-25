@@ -400,7 +400,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 /datum/objective/jailbreak/detain/update_explanation_text()
 	..()
 	if(target?.current)
-		explanation_text = "Ensure that [target.name], the [!target_role_type ? target.assigned_role.title : english_list(target.get_special_roles())] is delivered to the Port Authority alive and in custody." // DOPPLER EDIT - NT -> PA
+		explanation_text = "Ensure that [target.name], the [!target_role_type ? target.assigned_role.title : english_list(target.get_special_roles())] is delivered to Nanotrasen alive and in custody."
 	else
 		explanation_text = "Free objective."
 

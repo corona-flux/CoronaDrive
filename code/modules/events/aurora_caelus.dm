@@ -20,8 +20,7 @@
 /datum/round_event/aurora_caelus/announce(fake)
 	priority_announce("[station_name()]: A harmless cloud of ions is approaching your station, and will exhaust their energy battering the hull. Nanotrasen has approved a short break for all employees to relax and observe this very rare event. During this time, starlight will be bright but gentle, shifting between quiet green and blue colors. Any staff who would like to view these lights for themselves may proceed to the area nearest to them with viewing ports to open space. We hope you enjoy the lights.",
 	sound = 'sound/announcer/notice/notice2.ogg',
-	//sender_override = "Nanotrasen Meteorology Division") // ORIGINAL
-	sender_override = "Port Authority Meteorology Division") // DOPPLER EDIT - NT -> PA
+	sender_override = "Nanotrasen Meteorology Division")
 	if (fake)
 		return
 	for(var/V in GLOB.player_list)

@@ -430,7 +430,6 @@
 		/obj/item/stack/sheet/plastic/five = 3,
 		/obj/item/stack/sheet/plastic_wall_panel/ten = 2,
 		/obj/item/stack/rods/twentyfive = 2,
-		/obj/item/stack/sheet/tinumium/three = 2,
 		/obj/item/stack/sheet/mineral/silver = 2,
 		/obj/item/stack/sheet/mineral/gold = 2,
 		/obj/item/stack/sheet/mineral/plasma/five = 2,

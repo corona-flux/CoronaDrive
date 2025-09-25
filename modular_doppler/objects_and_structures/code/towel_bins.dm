@@ -165,17 +165,5 @@
 
 	if(tool.use_tool(src, user, 0.5 SECONDS, volume = 50))
 		to_chat(user, span_notice("You disassemble [src]."))
-		if(!(obj_flags & NO_DEBRIS_AFTER_DECONSTRUCTION))
-			new /obj/item/food/grown/grass/thatch(loc, 2)
 		qdel(src)
 		return ITEM_INTERACT_SUCCESS
-
-/datum/crafting_recipe/towel_basket
-	name = "towel basket"
-	result = /obj/structure/towel_bin/basket/empty/
-	time = 0.5 SECONDS
-	reqs = list(
-		/obj/item/food/grown/grass/thatch = 2,
-	)
-	crafting_flags = CRAFT_CHECK_DENSITY
-	category = CAT_CONTAINERS

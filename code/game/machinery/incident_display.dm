@@ -373,8 +373,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/incident_display/tram, 32)
 	if(sign_features & DISPLAY_DELAM)
 		. += span_notice("It can be changed to display tram hits with a [EXAMINE_HINT("multitool")].")
 		if(last_delam >= 0)
-			//. += span_info("It has been [last_delam] shift\s since the last delamination event at this Nanotrasen facility.") // ORIGINAL
-			. += span_info("It has been [last_delam] shift\s since the last delamination event at this Port Authority facility.") // DOPPLER EDIT - NT -> PA
+			. += span_info("It has been [last_delam] shift\s since the last delamination event at this Nanotrasen facility.")
 			switch(last_delam)
 				if(0)
 					. += span_info("Let's do better today.<br/>")
@@ -400,8 +399,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/incident_display/tram, 32)
 			if(2 to 5)
 				. += span_info("There's room for improvement.<br/>")
 			if(6 to 10)
-				//. += span_info("Good work! Nanotrasen's finest!<br/>") // ORIGINAL
-				. += span_info("Good work! The Port Authority's finest!<br/>") // DOPPLER EDIT - NT -> PA
+				. += span_info("Good work! Nanotrasen's finest!<br/>")
 			if(69)
 				. += span_info("Nice.<br/>")
 			else

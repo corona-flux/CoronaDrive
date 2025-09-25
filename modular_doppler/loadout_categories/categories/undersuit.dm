@@ -172,14 +172,6 @@
 	name = "Long Skirt"
 	item_path = /obj/item/clothing/under/dress/skirt/long
 
-/datum/loadout_item/undersuit/pants/skirt/loincloth
-	name = "Loincloth"
-	item_path = /obj/item/clothing/under/dress/skirt/loincloth
-
-/datum/loadout_item/undersuit/pants/skirt/loincloth/alt
-	name = "Loincloth, Alt"
-	item_path = /obj/item/clothing/under/dress/skirt/loincloth/loincloth_alt
-
 /datum/loadout_item/undersuit/formal
 	name = "Pencilskirt with Shirt"
 	item_path = /obj/item/clothing/under/suit/pencil
